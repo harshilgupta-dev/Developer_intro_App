@@ -36,8 +36,16 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold
                 ),
               ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.black,
+
+                ),
+              ),
               Card(
-                margin: EdgeInsets.symmetric(horizontal: 30.0,vertical: 15.0),
+                margin: EdgeInsets.symmetric(horizontal: 30.0,vertical: 5.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
@@ -56,7 +64,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(horizontal: 30.0,vertical: 5.0),
+                margin: EdgeInsets.symmetric(horizontal: 30.0,vertical: 9.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
@@ -73,8 +81,6 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               )
-
-
             ],
           ),
         ),
