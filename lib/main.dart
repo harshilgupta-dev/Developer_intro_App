@@ -12,7 +12,14 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-
+            children: [
+              CircleAvatar(
+                backgroundImage: NetworkImage(
+                  'https://media-exp1.licdn.com/dms/image/C5603AQHqOXC5yi4kAQ/profile-displayphoto-shrink_800_800/0/1616439628698?e=1625702400&v=beta&t=k7KkZ_XUyLRICKV5HMC6Qt0XyDIBt_3gp8lPQGG0JqQ'
+                ),
+                radius: 50.0,
+              )
+            ],
           ),
         ),
       ),
