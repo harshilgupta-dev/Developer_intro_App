@@ -34,6 +34,23 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'SourceSansPro',
                   fontWeight: FontWeight.bold
                 ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(horizontal: 30.0,vertical: 15.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    size:30.0,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+91 8445603664',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      color: Colors.teal
+                    ),
+                  ),
+                ),
               )
 
             ],
