@@ -47,7 +47,9 @@ class MyApp extends StatelessWidget {
                     '+91 8445603664',
                     style: TextStyle(
                       fontSize: 20.0,
-                      color: Colors.teal
+                      fontFamily: 'SourceSansPro',
+                      color: Colors.teal,
+                      letterSpacing: 2.0
                     ),
                   ),
                 ),
@@ -64,7 +66,8 @@ class MyApp extends StatelessWidget {
                     'harshilgupta0099@gmail.com',
                     style: TextStyle(
                         fontSize: 18.0,
-                        color: Colors.teal
+                        color: Colors.teal,
+                        fontFamily: 'SourceSansPro'
                     ),
                   ),
                 ),
